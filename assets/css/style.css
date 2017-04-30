@@ -1,3 +1,124 @@
+body  {
+    background-image: url("../images/tree_bark.png");
+    background-color: #cccccc;
+}
+
 h1 {
 	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 30px;
+}
+
+#myname {
+	color: #ffffff;
+}
+
+#Navigation {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:white;
+	border-bottom: 2px solid #cccccc;
+}
+
+#namebox {
+	background-color:#4aaaa5;
+	position: relative;
+	top: -10px;
+	left: 210px;
+	width: 250px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	color:#777777;
+}
+
+#navigationbuttons {
+	position: absolute;
+	top: 0px;
+	right: 350px;
+	line-height: 90px;
+}
+
+.buttons {
+	float: left;
+	margin: 10px 10px auto 10px;
+	line-height: 100px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #a3aaaf;
+}
+
+#maincontainer {
+	width: 960px;
+	position: relative;
+	top: 130px;
+	left: 200px;
+	float: left;
+}
+
+#maincontent {
+	width: 650px;
+	position: absolute;
+	top: 10px;
+	background-color:#fff;
+	border: 2px solid #e5e5e5;
+}
+
+#pagetitle {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 30px;
+	margin: 30px auto 30px 40px;
+}
+
+.line-divider {
+	height:1px;
+	width: 575px;
+	margin: 0 auto;
+	background:#e5e5e5;
+	border-bottom: 3px solid #e5e5e5;
+}
+
+#sidebox {
+	width: 270px;
+	position: absolute;
+	top: 10px;
+	right: -20px;
+	float: left;
+	background-color:#fff;
+	border: 2px solid #e5e5e5;
+}
+
+.mainimage {
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.maintext {
+	margin-top: 5px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 175%;
+	color: #777777;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 23px;
+	margin: 30px 30px 10px 30px;
+}
+
+#smalldivider {
+	height:1px;
+	width: 225px;
+	margin: 20px auto auto auto;
+	background:#e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 }
